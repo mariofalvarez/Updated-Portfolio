@@ -1,0 +1,29 @@
+Main Section
+
+    create new class to target contact button color
+    Optional: button for resume link/download
+    Navbar: move to top, either sticky navbar or hiden sidebar
+    add hero image, additional: pc/mobile responsiveness
+
+Skills Section
+    mini-sections (libraries, frameworks, etc)
+    link to projects section
+    ** Create containers to sepreate skill sub-sections
+
+Projects Section
+    replace links with links to thumbnail images folder of projects
+    each individual card will have an image and title and tech tools used
+    add demo/code links to projects on front page
+    ** write a function to create new project links automatically in js --> <div class="media">
+              <a href="/assets/images/fulls/01.jpg"><img src="/assets/images/thumbs/01.jpg" alt="Project 1" /></a>
+            </div>
+
+Conatct Section
+    move about me section above skills & projects
+    put platform links in navbar
+    turn contact form into direct email contact
+    dropdown menu for reason for contact
+    remove message section
+
+Overall
+- Tackle issues by next Thursday! ---
