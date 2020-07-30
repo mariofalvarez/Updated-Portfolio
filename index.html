@@ -1,263 +1,407 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <title>Portfilio</title>
+  </head>
 
-  <title>Portfilio</title>
-</head>
+  <body>
+    <div class="page-wrap">
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="index.html" class="active"
+              ><span class="icon fa-home"></span
+            ></a>
+          </li>
+          <li>
+            <a href="about.html"><span class="icon fa-file-text-o"></span></a>
+          </li>
+          <li>
+            <a href="gallery.html"
+              ><span class="icon fa-camera-retro"></span
+            ></a>
+          </li>
+          <li>
+            <a href="skills.html"><span class="icon fa-camera-retro"></span></a>
+          </li>
+        </ul>
+      </nav>
 
-<body>
-  <div class="page-wrap">
-    <!-- Nav
-    <nav id="nav">
-      <ul>
-        <li>
-          <a href="index.html" class="active"><span class="icon fa-home"></span></a>
-        </li>
-        <li>
-          <a href="gallery.html"><span class="icon fa-camera-retro"></span></a>
-        </li>
-        <li>
-          <a href="generic.html"><span class="icon fa-file-text-o"></span></a>
-        </li>
-      </ul>
-    </nav> -->
+      <!-- Main -->
+      <section id="main">
+        <!-- Banner -->
+        <section id="banner">
+          <div class="inner">
+            <h1>
+              <span class="firstnm">MARIO</span
+              ><span class="lastnm">ALVAREZ</span>
+            </h1>
+            <p>Backend Developer & Full-Stack.</p>
+            <p>Hero Section: Hire me bitch.</p>
+            <ul class="actions">
+              <li>
+                <a href="#galleries" class="button alt scrolly big">Contact</a>
+              </li>
+              <li>
+                <a href="#galleries" class="button alt scrolly big">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-    <!-- Main -->
-    <section id="main">
-      <!-- Banner -->
-      <section id="banner">
-        <div class="inner">
-          <h1>
-            <span class="firstnm">MARIO</span><span class="lastnm">ALVAREZ</span>
-          </h1>
-          <p>Backend Developer & Full-Stack.</p>
-          <p>Hero Section</p>
-          <ul class="actions">
+        <!-- Social -->
+        <div class="jumbotron">
+          <h1 class="display-4">Hi, I'm Mario!</h1>
+          <p class="lead">
+            This is a simple hero unit, a simple jumbotron-style component for
+            calling extra attention to featured content or information.
+          </p>
+          <hr class="my-4" />
+          <p class="card-text">
+            I graduated from San Jose State University with a degree in
+            Marketing. Since then, I have been working as a marketer up until
+            last year. Now I'm looking to blaze a path for myself as a
+            full-stack web developer through UC Berkeley's Coding Bootcamp. I
+            look forward to the journey ahead.
+          </p>
+          <p class="card-text">
+            My interestes include technology, programming, building computers,
+            film making and cinematography, and learning all sorts of new
+            skills. I enjoy challenging myself as a way to improve and learn all
+            sorts of exciting things. Other hobbies of mine include, watching
+            tons of movies, all sorts of TV shows, anime, competitive gaming,
+            and bullet journaling.
+          </p>
+          <br />
+          <h3>Follow Me</h3>
+          <ul class="icons">
             <li>
-              <a href="#galleries" class="button alt scrolly big">Contact</a>
+              <a
+                href="https://github.com/mariofalvarez"
+                target="blank"
+                class="icon fa-github"
+                ><span class="label">Twitter</span></a
+              >
             </li>
             <li>
-              <a href="#galleries" class="button alt scrolly big">Resume</a>
+              <a
+                href="https://www.linkedin.com/in/mariofalvarez/"
+                target="blank"
+                class="icon fa-linkedin"
+                ><span class="label">Facebook</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/malvarez_jr/"
+                target="blank"
+                class="icon fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
             </li>
           </ul>
         </div>
-      </section>
 
-      <!-- Social -->
-      <div class="social column">
-        <h3>About Me</h3>
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="assets/images/portrait.jpg" class="card-img" />
+        <!-- Skills Section -->
+        <section id="#">
+          <!-- Photo Galleries -->
+          <div class="gallery">
+            <header class="special">
+              <h2>Skills</h2>
+            </header>
+            <br />
+            <div class="card-deck">
+              <div
+                class="card align-items-center"
+                style="width: 18rem; list-style-type: none;"
+              >
+                <img src="..." class="card-img-top" alt="card-image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Backend</h5>
+                  <p class="card-text">
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>Express.js</li>
+                    <li>Node.js</li>
+                    <li>Firebase</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>RESTfulAPIs</li>
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    Latest Updated Apps -
+                    <a href="#" class="card-link">Details</a>
+                  </li>
+                  <li class="list-group-item">
+                    Latest Updated Apps -
+                    <a href="#" class="card-link">Details</a>
+                  </li>
+                  <li class="list-group-item">
+                    Latest Updated Apps -
+                    <a href="#" class="card-link">Details</a>
+                  </li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+
+              <div
+                class="card align-items-center"
+                style="width: 18rem; list-style-type: none;"
+              >
+                <img src="..." class="card-img-top" alt="card-image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Frontend</h5>
+                  <p class="card-text">
+                    <li>ReactJS</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    Latest Updated Apps -
+                    <a href="#" class="card-link">Details</a>
+                  </li>
+                  <li class="list-group-item">
+                    Latest Updated Apps -
+                    <a href="#" class="card-link">Details</a>
+                  </li>
+                  <li class="list-group-item">
+                    Latest Updated Apps -
+                    <a href="#" class="card-link">Details</a>
+                  </li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+
+              <div
+                class="card align-items-center"
+                style="width: 18rem; list-style-type: none;"
+              >
+                <img src="..." class="card-img-top" alt="card-image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Tools</h5>
+                  <p class="card-text">
+                    <li>Git</li>
+                    <li>Postman</li>
+                    <li>GitHub</li>
+                    <li>VSCode</li>
+                    <li>Heroku</li>
+                    <li>Matlab</li>
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    Latest Updated Apps -
+                    <a href="#" class="card-link">Details</a>
+                  </li>
+                  <li class="list-group-item">
+                    Latest Updated Apps -
+                    <a href="#" class="card-link">Details</a>
+                  </li>
+                  <li class="list-group-item">
+                    Latest Updated Apps -
+                    <a href="#" class="card-link">Details</a>
+                  </li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Hi, I'm Mario!</h5>
-                <p class="card-text">
-                  I graduated from San Jose State University with a degree in
-                  Marketing. Since then, I have been working as a marketer up
-                  until last year. Now I'm looking to blaze a path for myself
-                  as a full-stack web developer through UC Berkeley's Coding
-                  Bootcamp. I look forward to the journey ahead.
-                </p>
-                <p class="card-text">
-                  My interestes include technology, programming, building
-                  computers, film making and cinematography, and learning all
-                  sorts of new skills. I enjoy challenging myself as a way to
-                  improve and learn all sorts of exciting things. Other
-                  hobbies of mine include, watching tons of movies, all sorts
-                  of TV shows, anime, competitive gaming, and bullet
-                  journaling.
-                </p>
+          </div>
+        </section>
 
-                <h3>Follow Me</h3>
-                <ul class="icons">
+        <!-- Projects Section -->
+        <section id="galleries">
+          <!-- Photo Galleries -->
+          <div class="gallery">
+            <header class="special">
+              <h2>Projects</h2>
+            </header>
+            <br />
+            <div class="content">
+              <div class="card-columns">
+                <div class="card">
+                  <img
+                    src="./assets/images/thumbs/01.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card">
+                  <img
+                    src="./assets/images/thumbs/02.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card">
+                  <img
+                    src="./assets/images/thumbs/03.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card">
+                  <img
+                    src="./assets/images/thumbs/04.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card">
+                  <img
+                    src="./assets/images/thumbs/05.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card">
+                  <img
+                    src="./assets/images/thumbs/06.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+              </div>
+
+              <footer>
+                <a href="./gallery.html" class="button">Closer Look</a>
+              </footer>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+          <!-- Form -->
+          <div class="container mb-4">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">
+              Contact Me
+            </h2>
+            <!--Section Description-->
+            <p class="text-center w-responsive mx-auto mb-5">
+              Do you have any questions? Please do not hesitate to contact me
+              directly. I will get back to you within 24 hours to help you.
+            </p>
+
+            <div class="row">
+              <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input
+                          type="text"
+                          id="name"
+                          name="name"
+                          class="form-control"
+                        />
+                        <label for="name" class="">Your name</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input
+                          type="text"
+                          id="email"
+                          name="email"
+                          class="form-control"
+                        />
+                        <label for="email" class="">Your email</label>
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <input
+                          type="text"
+                          id="subject"
+                          name="subject"
+                          class="form-control"
+                        />
+                        <label for="subject" class="">Subject</label>
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="md-form">
+                        <textarea
+                          type="text"
+                          id="message"
+                          name="message"
+                          rows="2"
+                          class="form-control md-textarea"
+                        ></textarea>
+                        <label for="message">Your message</label>
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                </form>
+                <div class="text-center text-md-left">
+                  <a class="button">Send</a>
+                </div>
+              </div>
+
+              <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="https://github.com/mariofalvarez" target="blank" class="icon fa-github"><span
-                        class="label">Twitter</span></a>
+                    <i class="fa fa-location-arrow mt-4 fa-3x"></i>
+                    <p>San Francisco, CA 94401, USA</p>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/mariofalvarez/" target="blank" class="icon fa-linkedin"><span
-                        class="label">Facebook</span></a>
+                    <i class="fa fa-phone mt-4 fa-3x"></i>
+                    <p>1-650-759-7116</p>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/marioalvarez.jr/" target="blank" class="icon fa-instagram"><span
-                        class="label">Instagram</span></a>
+                    <i class="fa fa-envelope mt-4 fa-3x"></i>
+                    <p>mariofalvarezjr@gmail.com</p>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- Skills Section -->
-      <section id="">
-        <!-- Photo Galleries -->
-        <div class="gallery">
-          <header class="special">
-            <h2>Skills</h2>
-          </header>
-          <div class="card-deck">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Backend</h5>
-                <p class="card-text">
-                  <li>MongoDB</li>
-                  <li>MySQL</li>
-                  <li>Express.js</li>
-                  <li>Node.js</li>
-                  <li>Firebase</li>
-                  <li>Python</li>
-                  <li>Django</li>
-                  <li>RESTfulAPIs</li>
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Frontend</h5>
-                <p class="card-text">
-                  <li>ReactJS</li>
-                  <li>CSS</li>
-                  <li>HTML</li>
-                  <li>JavaScript</li>
-                  <li>Bootstrap</li>
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Tools</h5>
-                <p class="card-text">
-                  <li>Git</li>
-                  <li>Postman</li>
-                  <li>GitHub</li>
-                  <li>VSCode</li>
-                  <li>Heroku</li>
-                  <li>Matlab</li>
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
+    </div>
 
-      <!-- Projects Section -->
-      <section id="galleries">
-        <!-- Photo Galleries -->
-        <div class="gallery">
-          <header class="special">
-            <h2>Projects</h2>
-          </header>
-          <div class="content">
-            <div class="card-columns">
-              <div class="card">
-                <img src="http://via.placeholder.com/100x100" class="card-img-top" alt="..." />
-              </div>
-              <div class="card">
-                <img src="http://via.placeholder.com/100x100" class="card-img-top" alt="..." />
-              </div>
-              <div class="card">
-                <img src="http://via.placeholder.com/100x100" class="card-img-top" alt="..." />
-              </div>
-              <div class="card">
-                <img src="http://via.placeholder.com/100x100" class="card-img-top" alt="..." />
-              </div>
-              <div class="card">
-                <img src="http://via.placeholder.com/100x100" class="card-img-top" alt="..." />
-              </div>
-              <div class="card">
-                <img src="http://via.placeholder.com/100x100" class="card-img-top" alt="..." />
-              </div>
-            </div>
-            <footer>
-              <a href="gallery.html" class="button">Closer Look</a>
-            </footer>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact -->
-      <section id="contact">
-        <!-- Form -->
-        <div class="column">
-          <h3>Get in Touch</h3>
-          <form action="#" method="post">
-            <div class="field half first">
-              <label for="name">Name</label>
-              <input name="name" id="name" type="text" placeholder="Name" />
-            </div>
-            <div class="field half">
-              <label for="email">Phone Number</label>
-              <input name="email" id="email" type="email" placeholder="Email" />
-              <!-- fix css -->
-            </div>
-            <!-- <div class="field">
-              <label for="message">Message</label>
-              <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
-            </div> -->
-            <br />
-            <ul class="actions">
-              <li>
-                <input value="Send Message" class="button" type="submit" />
-                <!-- target direct email -->
-              </li>
-            </ul>
-          </form>
-        </div>
-      </section>
-    </section>
-  </div>
-
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.poptrox.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <script src="assets/js/skel.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
