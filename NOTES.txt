@@ -1,3 +1,13 @@
+----- 07/30/2020 -----
+
+1. Delete all useless JS
+2. Update GitHub
+3. Photoshoot for portfolio pictures
+4. Update README
+5. Focus on improving 'Skill Section'
+
+----- 07/15/2020 -----
+
 Main Section
 
     create new class to target contact button color
@@ -24,6 +34,3 @@ Conatct Section
     turn contact form into direct email contact
     dropdown menu for reason for contact
     remove message section
-
-Overall
-- Tackle issues by next Thursday! ---
